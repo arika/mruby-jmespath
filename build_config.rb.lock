@@ -1,0 +1,31 @@
+---
+mruby_version:
+  version: 2.1.0
+  release_no: 20100
+builds:
+  host:
+    https://github.com/yui-knk/mruby-set.git:
+      url: https://github.com/yui-knk/mruby-set.git
+      branch: master
+      commit: 68334311ac7386eef84f3034a256e7135a87625d
+      version: 0.0.0
+    https://github.com/ksss/mruby-stringio.git:
+      url: https://github.com/ksss/mruby-stringio.git
+      branch: master
+      commit: 390dce992e46c641a9cff6c6bd2d4126fbba6ccd
+      version: 0.0.0
+    https://github.com/iij/mruby-iijson.git:
+      url: https://github.com/iij/mruby-iijson.git
+      branch: master
+      commit: c5e730c30090d3cddae258f57ab9508edb3e9fce
+      version: 0.0.0
+    https://github.com/iij/mruby-dir.git:
+      url: https://github.com/iij/mruby-dir.git
+      branch: master
+      commit: 89dceefa1250fb1ae868d4cb52498e9e24293cd1
+      version: 0.0.0
+    https://github.com/iij/mruby-env.git:
+      url: https://github.com/iij/mruby-env.git
+      branch: master
+      commit: 056ae324451ef16a50c7887e117f0ea30921b71b
+      version: 0.0.0
